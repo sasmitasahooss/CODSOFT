@@ -1,464 +1,459 @@
 /* Reset some default styles */
 body, h1, h2, h3, p {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 /* Basic styling */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
 }
 
 header {
-    background-color: #333;
-    color: #fff;
+  background-color: #333;
+  color: #fff;
+  margin-left: 0.02vw;
+
 }
 
 nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1em 2em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 2em;
+  margin-left: 0.02vw;
 }
 
 nav ul {
-    list-style: none;
-    display: flex;
+  list-style: none;
+  display: flex;
 }
 
 nav ul li {
-    margin-right: 20px;
+  margin-right: 20px;
 }
 
 nav a {
-    text-decoration: none;
-    color: #fff;
+  text-decoration: none;
+  color: #fff;
 }
 
 .github-button {
-    background-color: #24292e;
-    padding: 10px 20px;
-    border-radius: 5px;
+  background-color: #24292e;
+  padding: 1vw 1vw;
+  border-radius: 20%;
 }
 
 .about-section {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 2em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2em;
 }
 
 .about-content {
-    flex: 1;
+  flex: 1;
+  margin-left: 8vw;
 }
-
-/* ... Previous CSS styles ... */
 
 .profile-photo {
-    text-align: center; /* Center the photo horizontally */
-    padding: 20px; /* Add padding for spacing */
+  text-align: center; /* Center the photo horizontally */
+  padding: 5vw; /* Add padding for spacing */
 }
 
 .profile-photo img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    border-radius: 50%; /* To create a circular profile photo */
+  max-width: 100%;
+  height: auto;
+  display: block;
+  max-width: 250px; /* Adjust the size as needed */
+  margin-left: 12vw;
+  margin-right: 6vw;
+  border-radius: 50%; /* To create a circular profile photo */
 }
 
-/* ... Continue with other styles ... */
-
-.profile-photo img {
-    max-width: 250px; /* Adjust the size as needed */
-    height: auto;
-    display: block;
-    margin-left: 200px;
-    margin-right: 50px;
-
-    border-radius: 50%; /* To create a circular profile photo */
-}
-
-/* Style for the download button */
 .download-button {
-    display: inline-block;
-    padding: 0.5rem 1rem;
-    background-color: #007BFF;
-    color: #fff;
-    text-decoration: none;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
 }
 
 .download-button:hover {
-    background-color: #0056b3;
+  background-color: #0056b3;
 }
 
-
-/* ... Skills ... */
+                          /* ... Skills ... */
 
 .skills-section {
-    background-color: #fff;
-    text-align: center;
-    padding: 2em;
+  background-color: #fff;
+  text-align: center;
+  padding: 2em;
 }
 
 .skill-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .skill-box {
-    border: 1px solid #ccc;
-    padding: 10px;
-    margin: 10px;
-    text-align: center;
-    border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  border-radius: 5px;
 }
 
 .skill-box img {
-    max-width: 50px;
-    max-height: 50px;
+  max-width: 50px;
+  max-height: 50px;
 }
 
-/* ... Continue with other styles ... */
+                      /* ... experience ... */
 
-.letsgrowmore{
-    display: flex;
-    align-items: start;
-    border: 2px solid black;
-    height: 150px;
-    width: 700px;
-    margin-top: 20px;
-    margin-left: 300px;
-    flex-wrap: wrap;
-  }
-  
-  .letsgrowmoreicon{
-    size: 10px;
-    width: 50px;
-    height: 50px;
-    margin-top: 2px;
-    border: 2px solid palevioletred;
-  }
-  
-  .letsgrowmorename{
-    /* border: 2px solid greenyellow; */
-    width: 200px;
-    margin-left: 5px;
-    padding-left: 0px;
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
-  .Codesoft{
-    display: flex;
-    align-items: start;
-    border: 2px solid black;
-    height: 150px;
-    width: 700px;
-    margin-top: 2px;
-    margin-left: 300px;
-    flex-wrap: wrap;
-  }
-  
-  .Codesofticon{
-    size: 10px;
-    width: 50px;
-    height: 50px;
-    margin-top: 2px;
-    border: 2px solid palevioletred;
-  }
-  
-  .Codesoftname{
-    /* border: 2px solid greenyellow; */
-    width: 200px;
-    margin-left: 5px;
-    padding-left: 0px;
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
-  
-  .expdesc{
-    margin-left: 50px;
-    text-indent: 0;
-    text-align: center;
-    display: flex;
-    justify-content: flex-start;
-  }
-
-  .expp{
-    text-align: center;
-    margin-left: 250px;
-  }
-  
 .experience-section {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 2em;
+  text-align: center;
+  padding: 2em;
+  align-items: center;
 }
 
-.experience-section .flex {
-    flex-direction: row;
-    text-align: left;
+.experience-section .expp {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  margin-left: 250px;
 }
 
 .experience-section .expdesc {
     text-align: left;
+  }
+
+.expdesc {
+  margin-left: 50px;
+  text-indent: 0;
+  text-align: center;
+  display: flex;
+  justify-content: flex-start;
 }
 
-.experience-section h1{
-    text-align: center;
-    margin-left: 180px;
+.letsgrowmore {
+  display: flex;
+  align-items: start;
+  border: 2px solid black;
+  height: 150px;
+  width: 700px;
+  margin-top: 20px;
+  margin-left: 250px;
+  flex-wrap: wrap;
 }
 
+.letsgrowmoreicon {
+  size: 1vw;
+  width: 5vw;
+  height: 5vw;
+  margin-top: 2px;
+  border: 2px solid palevioletred;
+}
 
-/* ... Previous CSS styles ... */
+.letsgrowmorename {
+  /* border: 2px solid greenyellow; */
+  width: 200px;
+  margin-left: 5px;
+  padding-left: 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
 
-/* Styles for larger screens */
-.experience-section {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 2em;
+.Codesoft {
+  display: flex;
+  align-items: start;
+  border: 2px solid black;
+  height: 150px;
+  width: 700px;
+  margin-top: 2px;
+  margin-left: 250px;
+  flex-wrap: wrap;
+}
+
+.Codesofticon {
+  size: 1vw;
+  width: 5vw;
+  height: 5vw;
+  margin-top: 2px;
+  border: 2px solid palevioletred;
+}
+
+.Codesoftname {
+  /* border: 2px solid greenyellow; */
+  width: 200px;
+  margin-left: 5px;
+  padding-left: 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.experience-section h2 {
+  text-align: center;
 }
 
 .experience-section .flex {
-    flex-direction: row;
-    text-align: left;
+  flex-direction: row;
+  text-align: left;
 }
 
 .experience-section .expdesc {
-    text-align: left;
+  text-align: left;
 }
 
-/* Styles for smaller screens (e.g., tablets and mobile devices) */
 @media screen and (max-width: 768px) {
-    .experience-section {
-        flex-direction: column;
-        padding: 1em;
-    }
+  .experience-section h2 {
+    text-align: center;
+    margin-left: 5px;
+  }
 
-    .experience-section .flex {
-        text-align: center;
-        margin-bottom: 2em;
-    }
+  .experience-section .flex {
+    text-align: center;
+  }
 
-    .experience-section .expdesc {
-        text-align: center;
-    }
-
-    .experience-section .letsgrowmore,
-    .experience-section .Codesoft {
-        margin-bottom: 2em;
-    }
-}
-
-/* ... Previous CSS styles ... */
-
-.experience-section {
+  /* .experience-section .expdesc {
+    text-align: center;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 2em;
+    flex-wrap: wrap;
+  } */
+
+  .experience-section .letsgrowmore,
+  .experience-section .Codesoft {
+    margin-bottom: 1em;
+  }
 }
 
-.experience-section .flex {
-    flex-direction: row;
-    text-align: left;
-}
-
-.experience-section .expdesc {
-    text-align: left;
-}
-
-/* Styles for smaller screens (e.g., tablets and mobile devices) */
-@media screen and (max-width: 768px) {
-    .experience-section {
-        flex-direction: column;
-        padding: 1em;
-    }
-
-    .experience-section .flex {
-        text-align: center;
-    }
-
-    .experience-section .expdesc {
-        text-align: center;
-    }
-
-    .experience-section .letsgrowmore,
-    .experience-section .Codesoft {
-        margin-bottom: 2em;
-    }
-}
-
-
-  /* ... Projects ... */
+/* ... Projects ... */
 
 .projects-section {
-    background-color: #fff;
-    padding: 2em;
-    text-align: center;
+  background-color: #fff;
+  padding: 2em;
+  text-align: center;
 }
 
-/* ... Previous CSS styles ... */
-
 .project {
-    margin: 20px;
-    padding: 10px;
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    text-align: left;
-    max-width: 300px;
-    transition: transform 0.3s; /* Add a transition for the zoom effect */
+  margin: 20px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  max-width: 300px;
+  transition: transform 0.3s; /* Add a transition for the zoom effect */
 }
 
 .project:hover {
-    transform: scale(1.05); /* Zoom in effect on hover */
+  transform: scale(1.05); /* Zoom in effect on hover */
 }
 
 /* ... Continue with other styles ... */
 
 .project {
-    margin: 20px;
-    padding: 10px;
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    text-align: left;
-    display: inline-block;
-    max-width: 300px;
+  margin: 20px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  display: inline-block;
+  max-width: 300px;
 }
 
 .project-image {
-    max-width: 100%;
-    border-radius: 5px 5px 0 0;
+  max-width: 100%;
+  border-radius: 5px 5px 0 0;
 }
 
 /* ... Education ... */
 
-/* ... Previous CSS styles ... */
-
 .education-section {
-    text-align: center; /* Center the content within the section */
-    padding: 2em;
+  text-align: center; /* Center the content within the section */
+  padding: 2em;
 }
 
 .education {
-    margin: 20px auto; /* Center-align the education entries horizontally */
-    padding: 10px;
-    background-color: #f0f0f0;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    text-align: left;
-    max-width: 300px;
+  margin: 20px auto; /* Center-align the education entries horizontally */
+  padding: 10px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  max-width: 300px;
 }
 
-/* Center the education entries for smaller screens (e.g., tablets and mobile devices) */
-@media screen and (max-width: 768px) {
-    .education-section {
-        padding: 1em;
-    }
+.contact {
+  font-family: Arial, sans-serif;
+  border: 2px solid blue;
+  height: 280px;
+  width: 400px;
+  margin-left: 10px;
 }
 
-.contact{
-    font-family: Arial, sans-serif;
-    border: 2px solid blue;
-    height: 280px;
-    width: 400px;
-    margin-left: 10px;
-  }
-
-  /* ... Previous CSS styles ... */
+/* ... Previous CSS styles ... */
 
 .contact-section {
-    background-color: #fff;
-    text-align: center;
-    padding: 2em;
+  background-color: #fff;
+  text-align: center;
+  padding: 2em;
 }
 
 .contact-section h2 {
-    color: black;
-    /*font-size: 2rem;*/
-    margin-bottom: 1rem;
+  color: black;
+  /*font-size: 2rem;*/
+  margin-bottom: 1rem;
 }
 
 .contact-section p {
-    color: #0d0c0c;
-    /*font-size: 1rem;*/
-    margin-bottom: 2rem;
+  color: #0d0c0c;
+  /*font-size: 1rem;*/
+  margin-bottom: 2rem;
 }
 
 .contact-form {
-    max-width: 400px;
-    margin: 0 auto;
-    padding: 1rem;
-    background-color: #fff;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 1rem;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .form-group {
-    margin-bottom: 1rem;
-    text-align: left;
+  margin-bottom: 1rem;
+  text-align: left;
 }
 
 .form-group label {
-    display: block;
-    /*font-weight: bold;*/
-    margin-bottom: 0.5rem;
+  display: block;
+  /*font-weight: bold;*/
+  margin-bottom: 0.5rem;
 }
 
 .form-group input[type="email"],
 .form-group input[type="text"],
 .form-group textarea {
-    width: 100%;
-    padding: 0.5rem;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
 }
 
 .form-group textarea {
-    resize: vertical;
+  resize: vertical;
 }
 
 button[type="submit"] {
-    display: block;
-    width: 100%;
-    padding: 0.5rem;
-    background-color: #007BFF;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
 }
 
 button[type="submit"]:hover {
-    background-color: #0056b3;
+  background-color: #0056b3;
 }
-
-/* Styles for smaller screens (e.g., tablets and mobile devices) */
-@media screen and (max-width: 768px) {
-    .contact-form {
-        max-width: 90%;
-    }
-}
-
-
 
 footer {
     background-color: #333;
     color: #fff;
     text-align: center;
     padding: 1em 0;
+  }
+
+/* Styles for smaller screens (e.g., tablets and mobile devices) */
+@media screen and (max-width: 768px) { 
+    
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1em 1em;
+      }
+    
+    nav ul li {
+        font-size: 0.9em;
+        margin-right: 2px;
+        margin-left: 2vw;
+      }
+
+    .profile-photo img {
+        width: 40vw;
+        height: 45vw;
+        display: flex;
+        margin-left: 10vw;
+      }
+
+    .experience-section {
+        flex-direction: column;
+        padding: 2em;
+      }
+    
+      .experience-section .flex {
+        text-align: center;
+        margin-bottom: 1em;
+      }
+    
+      .experience-section .expp {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        margin-left: 2vw;
+      }
+    
+      .experience-section .letsgrowmore,
+      .experience-section .Codesoft {
+        margin-bottom: 2em;
+      }
+    
+      .letsgrowmore {
+        width: 87vw;
+        margin-left: 2vw;
+        height: 38vw;
+      }
+
+      .letsgrowmore .expdesc {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 1px;
+        font-size: 0.9rem;
+      }
+    
+      .Codesoft {
+        width: 87vw;
+        margin-left: 2vw;
+        height: 38vw;
+      }  
+
+      .Codesoft .expdesc {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 1px;
+        font-size: 0.9rem;
+      }
+
+  .education-section {
+        padding: 1em;
+      }
+
+  .contact-form {
+    max-width: 90%;
+  }
 }
